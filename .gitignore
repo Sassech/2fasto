@@ -1,0 +1,52 @@
+# ---- Unity ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Cache de compilación
+/[Aa]ssets/AssetStoreTools*
+/[Bb]uildProfile
+
+# TextMesh Pro assets
+/[Aa]ssets/TextMesh Pro/Resources/Font Assets/*
+/[Aa]ssets/TextMesh Pro/Resources/Sprite Assets/*
+
+# Colab y Plastic SCM
+/[Aa]ssets/UnityCollaborate*
+/[Aa]ssets/PlasticSCM*
+
+# Auto-generated Jetbrains Rider / VSCode
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# ---- Opcionales ----
+# Si no quieres ignorar UserSettings, comenta esta línea
+UserSettings/
+
+# Si usas Addressables
+/[Aa]ssets/AddressableAssetsData/*
+
+# Si usas gradle/android
+.gradle/
+*.apk
+*.aab
+*.unitypackage
